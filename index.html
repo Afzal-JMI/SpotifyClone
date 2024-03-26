@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>This is a paragraph.</p>
+    <!--kjbiasdbvljasb-->
+    <a href="https://referral-portal.globallogic.com/home">referral</a>
+    <script src="hello.js" >
+        var myCat = {
+            "name": "Shilpi",
+            "legs": 2,
+            "height": '5ft2in',
+            "skin": "butter_smooth",
+            "looks": "cute & gorgeous",
+            "nature": "amazing",
+            "physique": "slim",
+            "friend_rank": 1,
+            "intelligence": 'pagli',
+            "cravings": 'gu'
+        }
+        console.log("object : " +'myCat'+"\n");
+        console.log("name : " +myCat.name+"\n");
+        console.log("legs : " +myCat.legs+"\n");
+        console.log("height : " +myCat.height+"\n");
+        console.log("skin : " +myCat.skin+"\n");
+        console.log("looks : " +myCat.looks+"\n");
+        console.log("nature : " +myCat.nature+"\n");
+        console.log("physique : " +myCat.physique+"\n");
+        console.log("friend_rank : " +myCat.friend_rank+"\n");
+        console.log("intelligence : " +myCat.intelligence+"\n");
+        console.log("cravings : " +myCat.cravings+"\n");
+        var count = 0;
+function cc(value){
+  
+  switch(value){
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count++;
+      break;
+    case 10:
+    case 'J':
+    case 'Q':
+    case 'K':
+    case 'A':
+      count--;
+      break;
+  }
+  var holdbet = 'Hold';
+  if(count>0){
+    holdbet = 'Bet';
+  }
+  return count +" "+holdbet;
+}
+ cc(2);
+ cc('K');
+ cc(7);
+ cc(5);
+ cc(6);
+console.log(cc(4));
+var myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "map",
+      "passenger seat": "crumbs"
+    },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+var data = [10, 20, 7, 50, 1, 100];
+let result = data.find((item) => item<7);
+console.log(result);
+console.log(myStorage.car.inside["glove box"]);
+let info = [
+  {id : 10, name : 'a'},
+  {id : 8, name : 'b'},
+  {id : 50, name : 'c'},
+  {id : 1, name : 'd'},
+  {id : 100, name : 'e'}
+]
+console.log(info.find((item) => item.id));
+
+let data1 = [10, 8, 17, 80, 65];
+
+let test = () => {return 1};
+let test2 = function(){
+  return 1
+}
+console.log(test());
+console.log('yippi');
+console.log(data1.map((i) =>  i*2));
+    </script>
+</body>
+</html>

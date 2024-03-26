@@ -1,0 +1,10 @@
+console.log(first.getAttribute("class"));
+console.log(first.hasAttribute("class"));
+console.log(first.hasAttribute("style"));
+first.setAttribute("hidden", true);
+first.setAttribute("class", "high");
+//first.removeAttribute("class");
+console.log(first.attributes);
+console.log(first.dataset.naam);
+console.log(first.dataset.age);
+console.log(document.body.firstElementChild);
